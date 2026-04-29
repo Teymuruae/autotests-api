@@ -1,4 +1,5 @@
-from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
+from clients.courses.courses_client import get_courses_client
+from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.files.files_client import get_files_client
 # Вместо CreateFileRequestDict импортируем CreateFileRequestSchema
 from clients.files.files_schema import CreateFileRequestSchema
@@ -29,19 +30,19 @@ courses_client = get_courses_client(authentication_user)
 create_file_request = CreateFileRequestSchema(
     filename="image.png",
     directory="courses",
-    upload_file="./testdata/files/image.png"
+    upload_file="./testdata/files/cat.jpg"
 )
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
-create_course_request = CreateCourseRequestDict(
+create_course_request = CreateCourseRequestSchema(
     title="Python",
-    maxScore=100,
-    minScore=10,
+    max_score=100,
+    min_score=10,
     description="Python API course",
-    estimatedTime="2 weeks",
-    previewFileId=create_file_response.file.id,  # Используем атрибуты место ключей
-    createdByUserId=create_user_response.user.id  # Используем атрибуты место ключей
+    estimated_time="2 weeks",
+    preview_file_id=create_file_response.file.id,  # Используем атрибуты место ключей
+    created_by_user_id=create_user_response.user.id  # Используем атрибуты место ключей
 )
 create_course_response = courses_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
