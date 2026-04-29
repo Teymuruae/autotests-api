@@ -6,6 +6,9 @@ from pydantic import EmailStr
 
 
 class UserSchema(BaseModel):
+    """
+    Описание структуры пользователя
+    """
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=False)
     id: str = Field(default_factory=lambda: uuid.uuid4())
     email: EmailStr
@@ -15,6 +18,9 @@ class UserSchema(BaseModel):
 
 
 class CreateUserRequestSchema(BaseModel):
+    """
+    Описание структуры запроса на создание пользователя.
+    """
     email: EmailStr
     password: str
     last_name: str = Field(alias='lastName')
@@ -22,4 +28,7 @@ class CreateUserRequestSchema(BaseModel):
 
 
 class CreateUserResponseSchema(BaseModel):
+    """
+    Описание структуры запроса на получение пользователя.
+    """
     user: UserSchema
