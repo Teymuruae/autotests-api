@@ -11,7 +11,7 @@ class LoginRequestSchema(BaseModel):
 
 
 class RefreshRequestSchema(BaseModel):
-    refresh_token: str = Field(alias='refreshToken', default_factory=lambda: fake.sentence)
+    refresh_token: str = Field(alias='refreshToken', default_factory=fake.sentence)
 
 
 class TokenSchema(BaseModel):

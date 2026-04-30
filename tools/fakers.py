@@ -6,6 +6,7 @@ from faker import Faker
 def get_random_email():
     return f"user{time.time()}@example.com"
 
+
 class Fake:
     """
     Класс для генерации случайных тестовых данных с использованием библиотеки Faker.
@@ -119,3 +120,4 @@ class Fake:
 
 
 fake = Fake(faker=Faker())
+fake_ru = Fake(faker=Faker('ru_Ru'))
