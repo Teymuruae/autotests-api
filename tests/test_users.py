@@ -2,16 +2,15 @@ import http
 
 import pytest
 
-from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.base import assert_status_code
 from tools.assertions.users import assert_create_user_response
 
+
 @pytest.mark.users
 @pytest.mark.regression
-def test_create_user():
-    public_users_client = get_public_users_client()
+def test_create_user(public_users_client):
     request = CreateUserRequestSchema()
 
     create_user_response = public_users_client.create_user_api(request)
@@ -20,5 +19,3 @@ def test_create_user():
     assert_status_code(create_user_response.status_code, http.HTTPStatus.OK)
     assert_create_user_response(request, create_user_response_data)
     validate_json_schema(create_user_response.json(), CreateUserResponseSchema.model_json_schema())
-
-
