@@ -19,7 +19,7 @@ class UserFixture(BaseModel):
     def password(self) -> str:
         return self.request.password
 
-@pytest.fixture()
+@pytest.fixture
 def public_users_client() -> PublicUsersClient:
     return get_public_users_client()
 
@@ -30,7 +30,7 @@ def private_users_client(function_user) -> PrivateUsersClient:
 
 
 @pytest.fixture()
-def function_user(public_users_client: PublicUsersClient):
+def function_user(public_users_client: PublicUsersClient) -> UserFixture:
     request = CreateUserRequestSchema()
     response = public_users_client.create_user(request)
     auth_schema = AuthenticationUserSchema(email=request.email, password=request.password)
