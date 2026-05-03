@@ -21,6 +21,6 @@ def files_client(function_user: UserFixture) -> FilesClient:
 @pytest.fixture
 def function_files(files_client: FilesClient) -> FilesFixture:
     here = os.path.dirname(os.path.abspath(__file__))
-    request = CreateFileRequestSchema(upload_file=os.path.join(os.path.dirname(here), '/testdata/files/cat.jpg'))
+    request = CreateFileRequestSchema(upload_file=os.path.join(os.path.dirname(here), 'testdata/files/cat.jpg'))
     response = files_client.create_file(request)
     return FilesFixture(request=request, response=response)
