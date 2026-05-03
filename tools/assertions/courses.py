@@ -1,5 +1,5 @@
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, CourseSchema, \
-    GetCoursesResponseSchema, CreateCourseResponseSchema
+    GetCoursesResponseSchema, CreateCourseResponseSchema, CreateCourseRequestSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
@@ -50,6 +50,7 @@ def assert_course(actual: CourseSchema, expected: CourseSchema):
     assert_user(actual.created_by_user, expected.created_by_user)
     assert_file(actual.preview_file, expected.preview_file)
 
+
 def assert_get_courses_response(
         get_courses_response: GetCoursesResponseSchema,
         create_course_responses: list[CreateCourseResponseSchema]
@@ -65,3 +66,25 @@ def assert_get_courses_response(
 
     for index, create_course_response in enumerate(create_course_responses):
         assert_course(get_courses_response.courses[index], create_course_response.course)
+
+
+def assert_create_course_response(
+        create_course_request: CreateCourseRequestSchema,
+        create_course_response: CreateCourseResponseSchema
+):
+    """
+    Проверяет, что ответ на создание курса соответствует данным из запроса.
+
+    :param create_course_request: Запрос на создание курса
+    :param create_course_response:  API ответ при создании курса.
+    :raises AssertionError: Если данные курсов не совпадают.
+    """
+    assert_equal(create_course_response.course.title, create_course_request.title, "title")
+    assert_equal(create_course_response.course.max_score, create_course_request.max_score, "max_score")
+    assert_equal(create_course_response.course.min_score, create_course_request.min_score, "min_score")
+    assert_equal(create_course_response.course.description, create_course_request.description, "description")
+    assert_equal(create_course_response.course.estimated_time, create_course_request.estimated_time, "estimated_time")
+    assert_equal(create_course_response.course.preview_file.id, create_course_request.preview_file_id,
+                 "preview_file_id")
+    assert_equal(create_course_response.course.created_by_user.id, create_course_request.created_by_user_id,
+                 "created_by_user_id")
