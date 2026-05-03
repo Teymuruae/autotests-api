@@ -31,5 +31,5 @@ class TestUsers:
         get_user_response = GetUserResponseSchema.model_validate_json(get_user_me_api_response.text)
 
         assert_status_code(get_user_me_api_response.status_code, http.HTTPStatus.OK)
-        assert_get_user_response(get_user_response.user, function_user.response.user)
+        assert_get_user_response(get_user_response, function_user.response)
         validate_json_schema(get_user_me_api_response.json(), GetUserResponseSchema.model_json_schema())
