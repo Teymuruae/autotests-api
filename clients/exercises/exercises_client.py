@@ -4,7 +4,7 @@ from clients.api_client import APIClient
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 from clients.exercises.exercises_schema import (GetExercisesResponseSchema, GetExerciseResponseSchema,
                                                 GetExercisesRequestSchema, UpdateExerciseRequestSchema,
-                                                CreateExerciseRequestSchema)
+                                                CreateExerciseRequestSchema, CreateExerciseResponseSchema)
 
 
 class ExercisesClient(APIClient):
@@ -48,9 +48,9 @@ class ExercisesClient(APIClient):
         """
         return self.post(url='/api/v1/exercises', json=request.model_dump(by_alias=True))
 
-    def create_exercise(self, request: CreateExerciseRequestSchema) -> GetExerciseResponseSchema:
+    def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
         response = self.create_exercise_api(request)
-        return GetExerciseResponseSchema.model_validate_json(response.text)
+        return CreateExerciseResponseSchema.model_validate_json(response.text)
 
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """

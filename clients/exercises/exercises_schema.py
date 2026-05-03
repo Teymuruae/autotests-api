@@ -38,6 +38,12 @@ class GetExerciseResponseSchema(BaseModel):
       """
     exercise: ExerciseSchema
 
+class CreateExerciseResponseSchema(BaseModel):
+    """
+      Описание структуры ответа создания упражнения.
+      """
+    exercise: ExerciseSchema
+
 
 class CreateExerciseRequestSchema(BaseModel):
     """
