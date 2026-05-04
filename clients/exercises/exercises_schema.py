@@ -4,7 +4,7 @@ from tools.fakers import fake
 
 class ExerciseSchema(BaseModel):
     """
-      Описание структуры упражнения.
+      Описание структуры задания.
       """
     model_config = ConfigDict(populate_by_name=True)
     id: str
@@ -19,7 +19,7 @@ class ExerciseSchema(BaseModel):
 
 class GetExercisesRequestSchema(BaseModel):
     """
-    Описание структуры запроса на получение списка упражнений.
+    Описание структуры запроса на получение списка заданий.
     """
     model_config = ConfigDict(populate_by_name=True)
     course_id: str = Field(alias="courseId")
@@ -27,27 +27,27 @@ class GetExercisesRequestSchema(BaseModel):
 
 class GetExercisesResponseSchema(BaseModel):
     """
-      Описание структуры ответа получения упражнений.
+      Описание структуры ответа получения заданий.
       """
     exercises: list[ExerciseSchema]
 
 
 class GetExerciseResponseSchema(BaseModel):
     """
-      Описание структуры ответа получения упражнения.
+      Описание структуры ответа получения задания.
       """
     exercise: ExerciseSchema
 
 class CreateExerciseResponseSchema(BaseModel):
     """
-      Описание структуры ответа создания упражнения.
+      Описание структуры ответа создания задания.
       """
     exercise: ExerciseSchema
 
 
 class CreateExerciseRequestSchema(BaseModel):
     """
-    Описание структуры запроса на создание упражнения.
+    Описание структуры запроса на создание задания.
     """
     model_config = ConfigDict(populate_by_name=True)
     title: str = Field(default_factory=fake.sentence)
@@ -61,7 +61,7 @@ class CreateExerciseRequestSchema(BaseModel):
 
 class UpdateExerciseRequestSchema(BaseModel):
     """
-    Описание структуры запроса на обновление упражнения.
+    Описание структуры запроса на обновление задания.
     """
     title: str | None = Field(default_factory=fake.sentence)
     max_score: int | None = Field(alias="maxScore", default_factory=fake.max_score)
@@ -69,3 +69,9 @@ class UpdateExerciseRequestSchema(BaseModel):
     order_index: int | None = Field(alias="orderIndex", default_factory=fake.integer)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
+
+class UpdateExerciseResponseSchema(BaseModel):
+    """
+       Описание структуры ответа обновления задания.
+       """
+    exercise: ExerciseSchema
