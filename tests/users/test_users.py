@@ -19,15 +19,18 @@ from tools.assertions.users import assert_create_user_response, assert_get_user_
 @pytest.mark.users
 @pytest.mark.regression
 @allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
-@allure.epic(AllureEpic.LMS)  # Добавили epic
-@allure.feature(AllureFeature.USERS)  # Добавили feature
+@allure.epic(AllureEpic.LMS)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.feature(AllureFeature.USERS)
+@allure.suite(AllureFeature.USERS)
 class TestUsers:
     @pytest.mark.parametrize('email', [
         fake.email(domain='mail.ru'),
         fake.email(domain='gmail.com'),
         fake.email(domain='example.com')
     ])
-    @allure.story(AllureStory.CREATE_ENTITY)  # Добавили story
+    @allure.story(AllureStory.CREATE_ENTITY)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.title("Create user")
     @allure.severity(Severity.BLOCKER)
@@ -44,6 +47,7 @@ class TestUsers:
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.title("Get user me")
     @allure.story(AllureStory.GET_ENTITY)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     @allure.severity(Severity.CRITICAL)
     def test_get_user_me(self, function_user, private_users_client):
         get_user_me_api_response = private_users_client.get_user_me_api()
