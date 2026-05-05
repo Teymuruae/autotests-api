@@ -1,10 +1,11 @@
 import os.path
 
 import pytest
-from pydantic import BaseModel
+from pydantic import BaseModel, FilePath
 
 from clients.files.files_client import FilesClient, get_files_client
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
+from config import settings
 from fixtures.users import UserFixture
 
 
@@ -21,6 +22,7 @@ def files_client(function_user: UserFixture) -> FilesClient:
 @pytest.fixture
 def function_files(files_client: FilesClient) -> FilesFixture:
     here = os.path.dirname(os.path.abspath(__file__))
-    request = CreateFileRequestSchema(upload_file=os.path.join(os.path.dirname(here), 'testdata/files/cat.jpg'))
+    request = CreateFileRequestSchema(
+        upload_file=FilePath(os.path.join(os.path.dirname(here), settings.test_data.image_jpg_file)))
     response = files_client.create_file(request)
     return FilesFixture(request=request, response=response)

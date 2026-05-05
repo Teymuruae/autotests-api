@@ -12,7 +12,7 @@ class HTTPClientConfig(BaseModel):
 
 
 class TestDataConfig(BaseModel):
-    image_png_file: FilePath
+    image_jpg_file: FilePath
 
 
 class Settings(BaseSettings):
@@ -28,4 +28,4 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-print(settings.http_client.client_url)
+print(settings.test_data.image_jpg_file)
