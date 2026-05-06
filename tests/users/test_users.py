@@ -25,9 +25,9 @@ from tools.assertions.users import assert_create_user_response, assert_get_user_
 @allure.suite(AllureFeature.USERS)
 class TestUsers:
     @pytest.mark.parametrize('email', [
-        fake.email(domain='mail.ru'),
-        fake.email(domain='gmail.com'),
-        fake.email(domain='example.com')
+        'mail.ru',
+        'gmail.com',
+        'example.com'
     ])
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.sub_suite(AllureStory.CREATE_ENTITY)
@@ -35,7 +35,7 @@ class TestUsers:
     @allure.title("Create user")
     @allure.severity(Severity.BLOCKER)
     def test_create_user(self, public_users_client, email):
-        request = CreateUserRequestSchema(email=email)
+        request = CreateUserRequestSchema(email=fake.email(domain=email))
 
         create_user_response = public_users_client.create_user_api(request)
         create_user_response_data = CreateUserResponseSchema.model_validate_json(create_user_response.text)

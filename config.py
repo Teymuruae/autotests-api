@@ -27,5 +27,3 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
-
-print(settings.test_data.image_jpg_file)
