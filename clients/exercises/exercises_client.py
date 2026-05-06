@@ -6,6 +6,7 @@ from clients.private_http_builder import AuthenticationUserSchema, get_private_h
 from clients.exercises.exercises_schema import (GetExercisesResponseSchema, GetExerciseResponseSchema,
                                                 GetExercisesRequestSchema, UpdateExerciseRequestSchema,
                                                 CreateExerciseRequestSchema, CreateExerciseResponseSchema)
+from tools.routes import APIRoutes
 
 
 class ExercisesClient(APIClient):
@@ -21,7 +22,7 @@ class ExercisesClient(APIClient):
          :param query: Словарь с courseId.
          :return: Ответ от сервера в виде объекта httpx.Response
          """
-        return self.get(url='/api/v1/exercises', params=request.model_dump(by_alias=True))
+        return self.get(url=APIRoutes.EXERCISES, params=request.model_dump(by_alias=True))
 
     def get_exercises(self, request: GetExercisesRequestSchema) -> GetExercisesResponseSchema:
         response = self.get_exercises_api(request)
@@ -35,7 +36,7 @@ class ExercisesClient(APIClient):
            :param exercise_id: Идентификатор упражнения.
            :return: Ответ от сервера в виде объекта httpx.Response
            """
-        return self.get(url=f'/api/v1/exercises/{exercise_id}')
+        return self.get(url=f'{APIRoutes.EXERCISES}/{exercise_id}')
 
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
         response = self.get_exercise_api(exercise_id)
@@ -50,7 +51,7 @@ class ExercisesClient(APIClient):
         description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(url='/api/v1/exercises', json=request.model_dump(by_alias=True))
+        return self.post(url=APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
     def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
         response = self.create_exercise_api(request)
@@ -65,7 +66,7 @@ class ExercisesClient(APIClient):
          :param request: Словарь с title, maxScore, minScore, orderIndex, description, estimatedTime.
          :return: Ответ от сервера в виде объекта httpx.Response
          """
-        return self.patch(url=f'/api/v1/exercises/{exercise_id}', json=request.model_dump(by_alias=True))
+        return self.patch(url=f'{APIRoutes.EXERCISES}/{exercise_id}', json=request.model_dump(by_alias=True))
 
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> GetExerciseResponseSchema:
         response = self.update_exercise_api(exercise_id, request)
@@ -79,7 +80,7 @@ class ExercisesClient(APIClient):
         :param exercise_id: Идентификатор упражнения.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(url=f'/api/v1/exercises/{exercise_id}')
+        return self.delete(url=f'{APIRoutes.EXERCISES}/{exercise_id}')
 
 
 def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
