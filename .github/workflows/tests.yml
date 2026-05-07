@@ -76,8 +76,8 @@ jobs:
       - name: Upload allure results for run-tests
         uses: actions/upload-artifact@v7.0.1
         with:
-          name: allure_results_history
-          path: allure-history
+          name: allure_results
+          path: allure-results
 
   publish-report:
     needs: run-tests
@@ -95,7 +95,7 @@ jobs:
       - name: Download allure results for run-tests
         uses: actions/download-artifact@v8.0.1
         with:
-          name: allure_results_history
+          name: allure_results
 
       # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
