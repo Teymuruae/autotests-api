@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjA5OjQwLjI3MTAzMiIsInVzZXJfaWQiOiIxYjBiMmVmNC05YjRiLTRmMDEtOGNmYS05NTY0ZjAxN2Q1YTkifQ.O9S2uXyJxOH3fQLgpoHzl5pKJJWoOcdZGK5Ns7NfDcw' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decision leader base fine minute. Future record man book candidate. Note yes light present partner fine.","maxScore":61,"minScore":29,"description":"Yeah exactly everyone focus member next there.","estimatedTime":"7 weeks","previewFileId":"bb7e3cff-8a8f-4704-a4cf-f69f2d9c3228","createdByUserId":"1b0b2ef4-9b4b-4f01-8cfa-9564f017d5a9"}'

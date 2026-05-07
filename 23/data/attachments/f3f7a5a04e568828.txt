@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/89d29055-7154-47dd-8712-491829211474' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjA5OjM3LjMwOTIxMSIsInVzZXJfaWQiOiI2ZGJkMWY3MS1iMDUxLTQxNTMtYTNjMS0zYjZiMmM3NDI0MmMifQ.cPbc9qGmd35eQsb5q7tuE6xzsmVzz39Pvqsy9oMKIe0' \
+  -H 'content-length: 211' \
+  -H 'content-type: application/json' \
+  -d '{"title":"President remember quite grow. Sport investment difficult candidate war enough clearly.","maxScore":67,"minScore":28,"description":"Reduce explain on character reflect cost.","estimatedTime":"1 weeks"}'

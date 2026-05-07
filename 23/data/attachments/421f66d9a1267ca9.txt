@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjA5OjM3Ljg5NjY2OCIsInVzZXJfaWQiOiIyYzA5YWYyNS0xY2Q5LTQwM2QtOWQ2NS02MTg1YTk2NTczOWEifQ.-RRpWMbUP1mkdgk9Jr49pAul3nG_nrbvaQ4RKnc-1o4' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option party either agency people eight. Mention music brother.\nEvening stop its significant south. Hear above form paper represent.\nSurface laugh tough. Become go about leg.\nBook finish guy large.","maxScore":63,"minScore":28,"description":"Leg style likely simple democratic.","estimatedTime":"9 weeks","previewFileId":"3361b793-0275-469a-8fbc-993b25865466","createdByUserId":"2c09af25-1cd9-403d-9d65-6185a965739a"}'

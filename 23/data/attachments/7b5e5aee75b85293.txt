@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/6b4a3d8f-0a74-417f-b794-50b5f3df45be' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjA5OjM5LjA2MjkzMiIsInVzZXJfaWQiOiJlNWRhNjJmMi1lMTc5LTQ1MDYtOGRhYi01MWQ0YmZlYjE4OGIifQ.bzRvW-ni_jvX8gT9k8olgIqckhim6bh5z41iRiPRkPQ' \
+  -H 'content-length: 257' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign lay window conference.","maxScore":86,"minScore":18,"orderIndex":16,"description":"Item learn tend number. Boy push young yes.\nWater be pick administration. It generation special security drug. Need possible else.","estimatedTime":"4 weeks"}'

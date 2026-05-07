@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/6b4a3d8f-0a74-417f-b794-50b5f3df45be
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/6b4a3d8f-0a74-417f-b794-50b5f3df45be
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:85 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Sign lay window conference.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 86
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 18
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 16
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Item learn tend number. Boy push young yes.
+Water be pick administration. It generation special security drug. Need possible else.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

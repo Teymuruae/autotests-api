@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjA5OjQxLjIxMDY1MyIsInVzZXJfaWQiOiIxMjYwNmQyMS1kNTMxLTQ2YzEtOWUxZi1lMWViYzg5Yzg1YjUifQ.c42Be6aVTA3kVCJjFqVNI20f3Oyg3Z2GhjN1sz427kU' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"So out will hard. Focus number world suffer school fill analysis.\nVote true model cause next base.","maxScore":97,"minScore":14,"description":"Reason same quickly cut administration argue option because.","estimatedTime":"5 weeks","previewFileId":"0cc1dd57-daa5-4f90-b115-3fc911523d58","createdByUserId":"12606d21-d531-46c1-9e1f-e1ebc89c85b5"}'
