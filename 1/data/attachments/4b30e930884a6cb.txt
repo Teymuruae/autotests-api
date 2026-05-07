@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:90 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Phone but that ago while. Modern visit scientist ready during. Force least generation part.
+Smile treatment study everybody clear nothing argue. Require concern light consumer laugh guess window.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 73
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 6
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Agency than fish every leave join.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file_id equals to 0fa0ae27-48c1-4704-a8d5-c9ff20a933c1
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user_id equals to f75ed262-3e0f-49f8-8ea8-076dd85ef65b
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

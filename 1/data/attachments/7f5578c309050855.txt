@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEzOjAxOjA5LjczMzIzNyIsInVzZXJfaWQiOiI4ODQ0ZDQzZC0zZGQ5LTQ5NjQtYmU1YS1iMzNkMDg4MTA4YTYifQ.wvkvYRE-s0J-q89GVfPub-_aylm6kDam1XFhl2Ksjoc' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Question like where method cost no.","courseId":"44e5d3d8-e540-4526-9573-e85964518c33","maxScore":53,"minScore":20,"orderIndex":38,"description":"Section indeed seat professional tree everybody few. Interesting and hotel concern pull too knowledge. Although cause add turn station at.","estimatedTime":"7 weeks"}'

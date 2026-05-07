@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEzOjAxOjA5LjA4MTg5NSIsInVzZXJfaWQiOiI1ZjhhMmViNC04OTkyLTQ3ZTEtYWJiNy1lZTI0NTMwZDk4NmUifQ.HmoVD8Lt2eIfCpkGh_zolli5sb7EbSdQCVnzaPkvpQ8' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later water dream special while. Yes wall low kitchen. Specific enough similar radio citizen at spend.","maxScore":55,"minScore":15,"description":"True memory something value man.","estimatedTime":"7 weeks","previewFileId":"98cc293d-9e0f-4741-879a-64db349cb676","createdByUserId":"5f8a2eb4-8992-47e1-abb7-ee24530d986e"}'

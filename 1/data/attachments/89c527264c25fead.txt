@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEzOjAxOjEwLjM5MDQ2NSIsInVzZXJfaWQiOiJmMGQ5ZGRiMy0zZTE2LTQ3ZGMtYTcyZS0xZjg3M2RmNzA4NjcifQ.F-99wOGXe5XQGaID_tTtNBhDH1pkX0Kw1GPPhk26Hpo' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk threat sea whether morning call. Society agency behavior seven far itself positive.\nPrevent thank sell between. Usually war open manager. Most explain meet mouth memory mean.","maxScore":79,"minScore":8,"description":"Half still top quite factor police.","estimatedTime":"1 weeks","previewFileId":"0737050e-c68e-44a3-aac7-652a487ab47a","createdByUserId":"f0d9ddb3-3e16-47dc-a72e-1f873df70867"}'

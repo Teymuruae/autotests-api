@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEzOjAxOjA3LjA5NTcyMSIsInVzZXJfaWQiOiJmY2EwZTFhNS1jZDEwLTQ3Y2ItODBjNi1lNzIyMTUyZWI0MzAifQ.fGsVQtm4V9if2Wfm2E5TCQaLMwEBirnU06hXckG8PyA' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea page somebody box dog bank. Truth popular and special result.","maxScore":69,"minScore":20,"description":"Draw either respond skin board.","estimatedTime":"7 weeks","previewFileId":"81b4338f-a71e-426e-b003-3183aa8f09d7","createdByUserId":"fca0e1a5-cd10-47cb-80c6-e722152eb430"}'
