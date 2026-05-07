@@ -89,6 +89,13 @@ jobs:
         with:
           name: allure_results
 
+      - name: Get Allure history
+        uses: actions/checkout@v6.0.2  # Опять клонируем репозиторий, чтобы получить историю отчётов
+        if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
+        continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
+        with:
+          ref: gh-pages  #  Указываем ветку gh-pages для получения отчётов
+          path: gh-pages  # Указываем путь для сохранения отчётов
 
       # 9. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
@@ -97,6 +104,7 @@ jobs:
         with:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
+          gh_pages_path: gh-pages
 
 
       # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
