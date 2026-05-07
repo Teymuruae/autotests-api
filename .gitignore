@@ -1,2 +1,12 @@
-.idea
 github_token.txt
+
+# pycharm
+.idea
+
+# python
+.venv
+__pycache__
+
+# allure
+allure-results
+allure-report
