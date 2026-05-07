@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE3OjQxOjI0Ljc2MzM0NSIsInVzZXJfaWQiOiIyZmE5NjQ5Ni01ZWNlLTRhZTAtODY1Ni1iZDVkMzRmMDEyOWMifQ.Yd0i8_POitJRTUfnYWlwpIVDsFB-QiP8TAfmvEbRFa4' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm whatever according example.","courseId":"f24ddb34-9c66-4b6b-acab-1bca4257d0b5","maxScore":56,"minScore":23,"orderIndex":93,"description":"Program keep assume. Whether eight toward garden early most summer reality. Star indeed toward several realize low resource. His kind size occur rate itself thought.","estimatedTime":"5 weeks"}'

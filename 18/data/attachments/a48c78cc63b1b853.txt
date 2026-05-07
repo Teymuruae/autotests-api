@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE3OjQxOjI2Ljk0MDA4MCIsInVzZXJfaWQiOiI1YTE1NDUyOC01N2JmLTQ1MTItODI0Ni0yMTg1ZWQyZWIwYzkifQ.Fe-b-Q8NItJ76Q9jDDLXg9M7A2zEG23ZPQAteVxuvOc' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Talk event compare shake voice modern method fine. Certain value talk magazine firm race ask opportunity. Attack behavior field decade.","maxScore":81,"minScore":5,"description":"West provide prove owner guy hair.","estimatedTime":"3 weeks","previewFileId":"d617b4ce-258a-4381-a4d5-e8c21b451995","createdByUserId":"5a154528-57bf-4512-8246-2185ed2eb0c9"}'

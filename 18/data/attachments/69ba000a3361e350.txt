@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE3OjQxOjI2LjM1Nzg4MSIsInVzZXJfaWQiOiJjOWQyOTQ0NC0zNjIxLTRjMzItOGRjZS0zYmE3YTUzNTM1OTAifQ.kO-1jmm4vafM5ZXbebuXMFu5JUuOuHgpYEzgBDvoBuw' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy style large accept possible new. Especially drug behavior staff make dream increase. Line surface approach especially.\nTheir exist available career enjoy if with charge. Military leader happy.","maxScore":99,"minScore":7,"description":"More we sport source audience rise.","estimatedTime":"2 weeks","previewFileId":"088b09c3-2913-4db7-8357-2ce039987813","createdByUserId":"c9d29444-3621-4c32-8dce-3ba7a5353590"}'

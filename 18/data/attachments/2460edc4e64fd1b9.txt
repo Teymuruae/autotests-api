@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE3OjQxOjI1LjI5MzI0NyIsInVzZXJfaWQiOiIzMzgzZDYyYi01Y2I5LTQzYjYtYTQ0Ny0wM2Q0YjAyMThlMzQifQ.uKV-ujs6bixjPuNlPd5Zzkr38SNCk3GJYe70RJJKRHA' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Top accept item color music too whose. Race make process worker.\nSong agreement high line. Significant wait subject.","maxScore":64,"minScore":10,"description":"Arrive sister cut season.","estimatedTime":"10 weeks","previewFileId":"59e8bbbc-e32c-4eb1-95a3-d1325e4b4f2f","createdByUserId":"3383d62b-5cb9-43b6-a447-03d4b0218e34"}'

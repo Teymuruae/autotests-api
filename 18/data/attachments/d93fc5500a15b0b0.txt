@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE3OjQxOjI1LjI5MzI0NyIsInVzZXJfaWQiOiIzMzgzZDYyYi01Y2I5LTQzYjYtYTQ0Ny0wM2Q0YjAyMThlMzQifQ.uKV-ujs6bixjPuNlPd5Zzkr38SNCk3GJYe70RJJKRHA' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mother board should book energy television so west.","courseId":"e2b89383-de97-4674-bd5f-1f060986baf8","maxScore":94,"minScore":22,"orderIndex":37,"description":"Bit maybe even soon sing mouth. Second idea bag share. Society store agreement hair seat probably.\nArea big explain base your. Fly through deal.","estimatedTime":"5 weeks"}'
