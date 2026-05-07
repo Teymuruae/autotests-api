@@ -104,7 +104,7 @@ jobs:
         with:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
-          gh_pages_path: gh-pages
+          gh_pages: gh-pages
 
 
       # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
