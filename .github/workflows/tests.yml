@@ -73,6 +73,21 @@ jobs:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
+      - name: Upload allure results for run-tests
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: allure_results
+          path: allure-results
+
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest  # Указываем, что тесты будут запускаться на последней версии Ubuntu
+
+    steps:
+      - name: Download allure results for run-tests
+        uses: actions/download-artifact@v8.0.1
+        with:
+          name: allure_results
       # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()  # Выполняется всегда, независимо от успеха других шагов
