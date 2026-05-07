@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:90 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Wall tree house she west change. Law include card west.
+Day computer region my beautiful. National case bring design.
+Despite health rather. Factor continue who away. Around door today bill consumer.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 56
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 17
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Give news church where perform third light office.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file_id equals to 0db9bdf0-287f-460b-b527-a10831af116c
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user_id equals to eb75f905-67aa-46e7-b290-764d3d43f5a9
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

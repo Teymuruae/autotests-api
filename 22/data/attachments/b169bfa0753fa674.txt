@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjAzOjU3LjU3NTYwMyIsInVzZXJfaWQiOiJjYmQzOWIzZC0xZjgzLTRkYjItODhlNS01ZTdiZmM1Y2I0OTgifQ.HzMvgIyQEy77m3YwXpl-Nn-CVMmAg7856b9kXMQAh18' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Who her skill this international president television. Religious operation eight poor economic.\nAlready strategy top play table TV politics. Party production major consider return.","maxScore":66,"minScore":9,"description":"Little child from.","estimatedTime":"4 weeks","previewFileId":"64fb19fd-6db5-466b-a380-e12c5ad3d064","createdByUserId":"cbd39b3d-1f83-4db2-88e5-5e7bfc5cb498"}'

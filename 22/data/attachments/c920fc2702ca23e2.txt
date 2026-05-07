@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjAzOjUzLjU1Njc0NCIsInVzZXJfaWQiOiJkY2NjMmU5NS1hOThkLTQ4NmMtYWRkNS0xMzQzYWUwYmJiNGEifQ.UXrvKXTsusoN6-I_7rV0TiMF9diWSc-ROL1mzbuuWe4' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring among write. Inside ask let occur last health leg.\nDegree choice evening. Must yet his unit clear easy. Outside walk body seem everything process yeah.","maxScore":75,"minScore":14,"description":"Entire right shoulder professional low sense these.","estimatedTime":"4 weeks","previewFileId":"8972ac4d-127d-4aa2-92a7-61f23df11995","createdByUserId":"dccc2e95-a98d-486c-add5-1343ae0bbb4a"}'

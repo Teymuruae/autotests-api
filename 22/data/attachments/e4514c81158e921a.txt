@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjAzOjU0Ljg3Nzc4NyIsInVzZXJfaWQiOiJlYjc1ZjkwNS02N2FhLTQ2ZTctYjI5MC03NjRkM2Q0M2Y1YTkifQ.Ryplr6lz_YdDZdzexxLfVjq9US-WkH7S8PB6Ol9h62k' \
+  -H 'content-length: 446' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wall tree house she west change. Law include card west.\nDay computer region my beautiful. National case bring design.\nDespite health rather. Factor continue who away. Around door today bill consumer.","maxScore":56,"minScore":17,"description":"Give news church where perform third light office.","estimatedTime":"1 weeks","previewFileId":"0db9bdf0-287f-460b-b527-a10831af116c","createdByUserId":"eb75f905-67aa-46e7-b290-764d3d43f5a9"}'

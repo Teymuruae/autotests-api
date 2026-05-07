@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjAzOjU4LjIyODY5NCIsInVzZXJfaWQiOiJlYjNiODkwZC0wYmIwLTRkZDgtYmZhOS1lYmVlMDJiYzk1ZmYifQ.K_wj4j-lDEp9bCj2AHowvrHkVvqb5OlbnxBSSIarOZ4' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign bit less anything threat red avoid. Lead affect some firm spring. Simply nice leader grow while.","maxScore":99,"minScore":28,"description":"Either language red sea history manage.","estimatedTime":"9 weeks","previewFileId":"32e374e7-cf87-446f-86c8-0515ad43a42a","createdByUserId":"eb3b890d-0bb0-4dd8-bfa9-ebee02bc95ff"}'
