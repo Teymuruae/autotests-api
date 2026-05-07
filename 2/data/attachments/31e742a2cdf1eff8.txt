@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEzOjE3OjIyLjg1NjczOSIsInVzZXJfaWQiOiIxYTZlMGQ0Ni0wZWY5LTRjNjYtOGE2Ni0zNzliYzVlMzQ5ZWIifQ.Hsp-YybCpZiw2EtEgVOBHbucmGzWhcwzCe2afPeRxWw' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manager goal nice to single. Character get answer. Wait outside arm.\nAvailable explain value consider often idea standard. Cell draw which also management. Situation capital kind great yard.","maxScore":100,"minScore":21,"description":"Nor tax movement economy bad place process thank.","estimatedTime":"5 weeks","previewFileId":"c871a3e8-3354-4089-a364-8f44f5b16269","createdByUserId":"1a6e0d46-0ef9-4c66-8a66-379bc5e349eb"}'

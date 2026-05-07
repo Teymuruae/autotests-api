@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEzOjE3OjIzLjQxMjc4MiIsInVzZXJfaWQiOiIyOGM5Y2M3NC1kM2Y2LTQ3OTItYWVlNi1hOGEyZDI5ZDVmNTcifQ.Q_99n-MoszdGw4sdC2axojFIw1BuLD2GMKZMhxgwkqM' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Read past trip. Several church matter hit religious run far. Somebody into soldier nor rate.\nUnderstand center speech more prove within statement. Instead public ground recently country accept some.","maxScore":87,"minScore":13,"description":"Sport buy summer.","estimatedTime":"2 weeks","previewFileId":"0fa78437-955f-4d91-b09a-10767cb7cd59","createdByUserId":"28c9cc74-d3f6-4792-aee6-a8a2d29d5f57"}'

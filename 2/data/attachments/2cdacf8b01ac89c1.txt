@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEzOjE3OjIyLjI5NDk2NCIsInVzZXJfaWQiOiIxZjQ4MjJlNy1lMGIxLTQ2YTUtYTU0YS0xMzg3NmEyNzNjZWQifQ.-ye2wCvrtxTTiIwV2intvMa6AnqCr6vHa7M9-f_SPVI' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Store set project per mean. Cold why lose rise power leg wall.\nThis politics gun once recently job toward.\nKid result trouble gun least. Population away direction wall different.","maxScore":92,"minScore":4,"description":"Suggest film inside.","estimatedTime":"9 weeks","previewFileId":"cc4f2fda-ac07-477f-b427-095a7ca8f1e5","createdByUserId":"1f4822e7-e0b1-46a5-a54a-13876a273ced"}'
