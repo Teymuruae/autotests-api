@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjExOjUwLjg1MDY4MSIsInVzZXJfaWQiOiIwOTcyZDVjZC1kYmY1LTRjYWQtODYzYS1kZTBiYzE2MDVlMjQifQ.TCtP1KUa5jVePJ_kJr22kRnVUgMpYZCDpE0f2vUAxBs' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs collection yourself box year tree enter building. First leader even law property budget. Back important believe reveal three suggest phone.","maxScore":67,"minScore":12,"description":"Magazine executive them stage forget.","estimatedTime":"7 weeks","previewFileId":"498d5e03-fc0a-4cdf-9605-9702f0851834","createdByUserId":"0972d5cd-dbf5-4cad-863a-de0bc1605e24"}'

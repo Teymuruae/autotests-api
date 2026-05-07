@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjExOjUwLjIwMTgyMCIsInVzZXJfaWQiOiI0OTA0OTRlOS1hMGEzLTQ2YmUtODQ3NC1kMzA5YjNkMzliZGIifQ.nXT_AZwBjRcV68yffAvRw-9nT7-hJWB478Xrg9MuBi8' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Between stop current with understand worry for maybe. High stand middle machine fight.\nAuthority increase always someone pick. Nothing get indicate week.","maxScore":86,"minScore":20,"description":"Serious alone say career use situation bar goal.","estimatedTime":"2 weeks","previewFileId":"c9be5344-b22a-400c-b050-b0dcfcc4c4fd","createdByUserId":"490494e9-a0a3-46be-8474-d309b3d39bdb"}'

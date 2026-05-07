@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDE4OjExOjQ3LjU3MjYwNSIsInVzZXJfaWQiOiJlOWFmNzcwNy00MWRlLTQwNmMtOTc0Yy1jNmVjZDY0OGY4MGMifQ.yiveZCTtbqZyVzbmRAR2wwd622VxxmdiHE1mDcCxflw' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip people near into line doctor ready practice. Staff look several director perform or sing pressure. Memory more notice natural again west.","maxScore":74,"minScore":8,"description":"Poor finally usually me.","estimatedTime":"7 weeks","previewFileId":"a8594953-43c2-4b8f-9c2a-23b9e913b431","createdByUserId":"e9af7707-41de-406c-974c-c6ecd648f80c"}'
