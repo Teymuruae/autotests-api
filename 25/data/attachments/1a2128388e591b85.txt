@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDExOjE5OjAxLjgzODg3MCIsInVzZXJfaWQiOiI3MWYzNWRjMS02NzNmLTQ0OWEtYmZmYi01MWE4OTJjMzVjNTYifQ.eTFcP9Hxgbdg0JGd8_1nzOeL2SpC5nmAhGPXxZId9Xw' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Answer site education something save. Tax similar area special feel artist. Ok identify recent material serve. Forget lead position enough have study follow part.","maxScore":66,"minScore":16,"description":"Remember what quickly.","estimatedTime":"4 weeks","previewFileId":"9eba5538-aadc-4b95-8000-0af284e64060","createdByUserId":"71f35dc1-673f-449a-bffb-51a892c35c56"}'

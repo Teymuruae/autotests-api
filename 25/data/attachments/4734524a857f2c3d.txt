@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDExOjE4OjU5LjQ0NTI5NSIsInVzZXJfaWQiOiIxNjhiNDk1Zi03ZmUyLTQxNTgtODNkZS1hNjk0Njk0OThmYjAifQ.in-rCmV1BGoPPcDU6ckvijdmJj9Qecuoqu9r3c6Hy3Y' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maintain music order far represent. Animal arrive let scientist center play use.\nStaff subject fact. Size yeah best.","maxScore":68,"minScore":1,"description":"Shoulder pretty civil traditional.","estimatedTime":"2 weeks","previewFileId":"29983ed3-0a21-4d39-86b6-578c95176c62","createdByUserId":"168b495f-7fe2-4158-83de-a69469498fb0"}'

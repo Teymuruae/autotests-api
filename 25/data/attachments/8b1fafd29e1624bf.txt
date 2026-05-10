@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDExOjE4OjU5LjQ0NTI5NSIsInVzZXJfaWQiOiIxNjhiNDk1Zi03ZmUyLTQxNTgtODNkZS1hNjk0Njk0OThmYjAifQ.in-rCmV1BGoPPcDU6ckvijdmJj9Qecuoqu9r3c6Hy3Y' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tend car store.","courseId":"1b5bab57-f504-4f9d-899e-d5faec4fb38a","maxScore":73,"minScore":28,"orderIndex":51,"description":"Word view kind rule. Maintain season model future available Republican. Thousand system else figure interesting. General upon certainly Republican mean fine clearly main.","estimatedTime":"1 weeks"}'
