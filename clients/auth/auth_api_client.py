@@ -5,20 +5,23 @@ from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
 from clients.auth.authentication_schema import RefreshRequestSchema, LoginRequestSchema, LoginResponseSchema
 from tools.routes import APIRoutes
+from clients.api_coverage import tracker
 
 
 class AuthenticationClient(APIClient):
     @allure.step("Authenticate user")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/login")
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
             Метод выполняет аутентификацию пользователя.
 
             :param request: Словарь с email и password.
-            :return: Ответ от сервера в виде объекта httpx.Response.
+            :return: Ответ от сервера в виде объекта httpx.Response
             """
         return self.post(url=f"{APIRoutes.AUTHENTICATION}/login", json=request.model_dump(by_alias=True))
 
     @allure.step("Refresh authentication token")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/refresh")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
             Метод обновляет токен авторизации.
