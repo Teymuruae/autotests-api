@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjU3OjM0Ljc5NDY2OSIsInVzZXJfaWQiOiJkOGE3NmEyOS1iMWEwLTQ1MTctODFmNC0xNTc2YjE1M2Q4MzMifQ.vmcyGdiKgAPsCkxqjvfk7w_7NzockBB0qSZVVovwA98' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move together glass.","courseId":"838e3115-978f-4f32-89cf-c0d5b6d6f250","maxScore":71,"minScore":6,"orderIndex":63,"description":"Stage defense hit think budget. Heart gas wrong. Government still three thought couple society bad.\nResearch thus start. Family example force student special raise along.","estimatedTime":"7 weeks"}'

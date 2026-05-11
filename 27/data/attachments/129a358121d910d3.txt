@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjU3OjMzLjY3NDIzNSIsInVzZXJfaWQiOiJlZWE2MDlmMi1lNDc0LTRmNGItYjgwYy03MzRjZTU3NWZiMjYifQ.B11NuhA5OKom_uBxOkybORd1z7-yYkUssvWY0jRAnsQ' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Day administration tell newspaper same. End let almost star.\nService herself house authority. Evening feel offer window.","maxScore":59,"minScore":4,"description":"Plant risk task.","estimatedTime":"7 weeks","previewFileId":"5229d58f-be92-47d8-ab07-30804b4cf985","createdByUserId":"eea609f2-e474-4f4b-b80c-734ce575fb26"}'

@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:26 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Strong receive body piece land coach organization.
+INFO     BASE_ASSERTIONS:base.py:36 Check that course_id equals to 6f7d9906-6d6b-4968-961a-b5128b580a5b
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 75
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 4
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 55
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Machine open institution money condition artist when. Hold issue center actually meet.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=6f757c04-8d3d-47e9-9da8-ebece47300e9
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=6f757c04-8d3d-47e9-9da8-ebece47300e9
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:130 Check get exercises response
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 20ea3a2c-fd0e-48b9-b59e-af5050cbe332
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Store from good in treat.
+INFO     BASE_ASSERTIONS:base.py:36 Check that course_id equals to 6f757c04-8d3d-47e9-9da8-ebece47300e9
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 82
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 29
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 83
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Impact find commercial land room. Something rate raise approach very community include.
+Tonight board issue life quickly eye. Account guy compare. Major almost doctor weight then color.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

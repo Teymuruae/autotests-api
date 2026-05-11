@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjU3OjMxLjkyODc0NyIsInVzZXJfaWQiOiIyODZlOGM2Ny03OGQ1LTQwODAtYjAzOS1iNjhhZDZhZmVjOGMifQ.yilGIMCpVxa0NSWW6L3o2xB-nu0NXGWaUXeFHv7HxyE' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whose various hundred break gas. Blood benefit activity industry mention detail. Six training now strong site. Air maybe good receive right whose.\nUp none run amount media. Rise guess bank plan.","maxScore":79,"minScore":1,"description":"This network game hear production film less ok.","estimatedTime":"8 weeks","previewFileId":"cc83a3f7-36a5-4c12-b261-865493bcd662","createdByUserId":"286e8c67-78d5-4080-b039-b68ad6afec8c"}'

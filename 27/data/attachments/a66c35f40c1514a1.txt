@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjU3OjM0LjIzMzA5MSIsInVzZXJfaWQiOiJkZDM5OTI4YS1kMmNiLTQzMzAtYjEzNS0zN2Q2YTQwZDBkOGQifQ.h4qRL-dTwUsueeg3PSg3F1FN3hEPFhLiCgLPJMweIXA' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enjoy sport risk attack large a day. Physical herself rise result discussion. Program catch big read add. Provide recently glass better but clear.","maxScore":51,"minScore":23,"description":"View political summer serious.","estimatedTime":"6 weeks","previewFileId":"8e18c429-8980-485a-adfb-8ed110b0eea5","createdByUserId":"dd39928a-d2cb-4330-b135-37d6a40d0d8d"}'
