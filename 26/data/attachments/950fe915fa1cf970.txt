@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjM1OjU3LjM3NDAzOCIsInVzZXJfaWQiOiJmZjBkMDk2OS1mY2E0LTQyMjktYmY5Yi04N2M2MzlhZTQ1MGMifQ.dd02NM0oByr4MGJcZiIyHkxMjZ99eZXZLjcAbrFXrzY' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit fire image else choose weight wear. Power realize live include forget put.\nPlay beat sometimes environmental everyone. Open high task doctor subject newspaper forward.","maxScore":78,"minScore":15,"description":"Rule future risk scene away practice.","estimatedTime":"6 weeks","previewFileId":"116a484d-df72-4f46-bb63-44ca83dabe7b","createdByUserId":"ff0d0969-fca4-4229-bf9b-87c639ae450c"}'

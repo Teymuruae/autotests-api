@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjM1OjU4LjQ1OTQ5NCIsInVzZXJfaWQiOiI1MmRkMjg1Yi1hZWI0LTQ4MDktYjhkZi1kNjY1MTZlNDIzNTAifQ._Z9DP3bF5OVUvbqA-8zg4BAmE1RbNadVps1_fr7s_Qc' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require find team imagine type. Newspaper successful vote official animal with size. Leave fill score.","maxScore":55,"minScore":25,"description":"Those force site last wife camera.","estimatedTime":"7 weeks","previewFileId":"9c4a2607-50c7-4957-a068-f90a8cf8753a","createdByUserId":"52dd285b-aeb4-4809-b8df-d66516e42350"}'

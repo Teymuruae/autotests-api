@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=ff0d0969-fca4-4229-bf9b-87c639ae450c
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=ff0d0969-fca4-4229-bf9b-87c639ae450c
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:72 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:49 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 0d7a1f7c-a73d-4966-bc1f-6dd989662abc
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Visit fire image else choose weight wear. Power realize live include forget put.
+Play beat sometimes environmental everyone. Open high task doctor subject newspaper forward.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 78
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Rule future risk scene away practice.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 6 weeks
+INFO     USER_ASSERTIONS:users.py:27 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to ff0d0969-fca4-4229-bf9b-87c639ae450c
+INFO     BASE_ASSERTIONS:base.py:36 Check that email equals to vrivera@example.net
+INFO     BASE_ASSERTIONS:base.py:36 Check that last_name equals to Rodriguez
+INFO     BASE_ASSERTIONS:base.py:36 Check that first_name equals to Andrea
+INFO     BASE_ASSERTIONS:base.py:36 Check that middle_name equals to George
+INFO     FILES_ASSERTIONS:files.py:53 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 116a484d-df72-4f46-bb63-44ca83dabe7b
+INFO     BASE_ASSERTIONS:base.py:36 Check that url equals to http://localhost:8000/static/tests/513a76a7-e7ad-4eb7-853d-fe9c28fc6d1a.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that filename equals to 513a76a7-e7ad-4eb7-853d-fe9c28fc6d1a.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that directory equals to tests
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

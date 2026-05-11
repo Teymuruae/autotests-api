@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjM1OjU5LjcxMTQwNiIsInVzZXJfaWQiOiJiOTZmNDZjMS01MjQ0LTRmODktOGU3OS1iODVjYTYxZGJjZDkifQ.hJJmxvE_sPvopq6nrk6G0fBCp-YfJRwbdUxK6IuAUjM' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now detail raise onto onto one significant. Brother miss report before. Agreement score himself ten half international. Hot station should it.","maxScore":55,"minScore":8,"description":"Miss camera bit control.","estimatedTime":"7 weeks","previewFileId":"e0aafcf3-360d-412a-b737-fde1154d10c5","createdByUserId":"b96f46c1-5244-4f89-8e79-b85ca61dbcd9"}'
