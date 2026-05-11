@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ2LjY3NDYyOCIsInVzZXJfaWQiOiIzMGNhNzMyMi0yMWVmLTQyODQtODVmOC1kY2VkM2M5YWI1YzgifQ.R0gFJfgfSN0v3AFMzupJguZ_B7FjaNiwXHUPJ8WqsOg' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare all coach listen measure role. Play over by group executive natural.\nHome story case station by history no. Life three find blue probably common hour.\nSkin work police boy during.","maxScore":96,"minScore":28,"description":"Mention guy eye.","estimatedTime":"3 weeks","previewFileId":"5092d33f-442a-43f9-898f-79cee0f62c7d","createdByUserId":"30ca7322-21ef-4284-85f8-dced3c9ab5c8"}'

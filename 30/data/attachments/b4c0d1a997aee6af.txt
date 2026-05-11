@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ1LjQzOTA2MSIsInVzZXJfaWQiOiI4YTczMzViYS1jMmZkLTRjOWUtOWUyMS04ZjkwNzExN2MxMDUifQ.6d3ZCAYVC6oVKCcdqU9afGf69xCARCc6KC-1QWGLXtc' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hit sort cause late.","courseId":"c41d3815-d529-4437-8d5f-3e75b5340c38","maxScore":81,"minScore":15,"orderIndex":58,"description":"Argue to cost message social. Director field trade home they. Want price miss whole evening car.\nDifferent cause significant vote common. Best create whose can instead yard.","estimatedTime":"4 weeks"}'

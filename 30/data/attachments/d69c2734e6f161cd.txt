@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ2LjA4ODc0NyIsInVzZXJfaWQiOiI2NjY1Zjk3Zi00NWMwLTRkNWYtOTY2YS1kOGRhYmQyOTM0Y2EifQ.FAC04dkC_IHTeoLCjfvo4VbeKDtY42aYu3Edo81ofro' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Despite woman song agree over quality like. Ask gun live project bag result within general. Safe result agree executive outside your.","maxScore":81,"minScore":12,"description":"Open area reason fall even mission.","estimatedTime":"1 weeks","previewFileId":"ae33bd52-fbd4-4722-bfc0-0185f80ab623","createdByUserId":"6665f97f-45c0-4d5f-966a-d8dabd2934ca"}'

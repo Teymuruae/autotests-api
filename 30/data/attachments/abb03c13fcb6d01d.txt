@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/345c5b37-7a45-47eb-afa8-c0b46b827215' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ0Ljg1NzMyNyIsInVzZXJfaWQiOiJiZTRiMWJjNC01MzQ3LTQyYjktODdhZi1jMGEwYmUxZDIwMTkifQ.kEW12Sc4kqUCVjWe_Bb6wnY_iIqwzzogJoCVkFwXBqw' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choose traditional stuff miss turn year.","maxScore":81,"minScore":16,"orderIndex":79,"description":"Suffer stay whether serious. Under whole mission summer employee scene. Treatment whom north within early child.","estimatedTime":"9 weeks"}'

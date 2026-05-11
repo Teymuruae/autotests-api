@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ0Ljg1NzMyNyIsInVzZXJfaWQiOiJiZTRiMWJjNC01MzQ3LTQyYjktODdhZi1jMGEwYmUxZDIwMTkifQ.kEW12Sc4kqUCVjWe_Bb6wnY_iIqwzzogJoCVkFwXBqw' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decide federal former trial down design study.","courseId":"cfae59d0-a2b6-464f-a598-3171b2bc7203","maxScore":96,"minScore":9,"orderIndex":82,"description":"Product many back hair.\nItself position use. Position music big business talk that adult.\nUpon officer admit address environmental modern bill. Anything enjoy federal. Bar know oil our type.","estimatedTime":"1 weeks"}'

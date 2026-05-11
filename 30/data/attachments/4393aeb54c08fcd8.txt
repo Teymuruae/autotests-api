@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/d16abb94-a40c-49cf-b321-a3290066786b
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/d16abb94-a40c-49cf-b321-a3290066786b
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Away budget prepare pattern. Assume father despite case nation research and.
+Show ten court never likely mean. Them face rest world professor modern.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 66
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 26
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Point information why.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ0LjI2NzAyNyIsInVzZXJfaWQiOiI0MzBiZTU2Yi1jYzhkLTQwYmItYmQzYi01OWI1NjRmNTNkZjIifQ.J_QYZY8NKupgZDTLJEnv8ymbR-USOHDi9uHsGH0R0NU' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would guess join ground meeting. Development argue so Republican myself central. Camera fast born significant direction lead.","maxScore":53,"minScore":4,"description":"Rock sort do.","estimatedTime":"5 weeks","previewFileId":"5f0dff0f-a5aa-4dbb-ac89-315b0fe515c5","createdByUserId":"430be56b-cc8d-40bb-bd3b-59b564f53df2"}'

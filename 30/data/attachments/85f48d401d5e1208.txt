@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ2LjA4ODc0NyIsInVzZXJfaWQiOiI2NjY1Zjk3Zi00NWMwLTRkNWYtOTY2YS1kOGRhYmQyOTM0Y2EifQ.FAC04dkC_IHTeoLCjfvo4VbeKDtY42aYu3Edo81ofro' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal structure your international which.","courseId":"14ae1831-e449-4875-be1e-e7c7b7bdbb3a","maxScore":79,"minScore":28,"orderIndex":69,"description":"Expect film court agreement reflect identify. Idea special body strategy.\nSeem head discover art respond short. College or during foreign live simply. Industry laugh yeah every tend audience none.","estimatedTime":"8 weeks"}'

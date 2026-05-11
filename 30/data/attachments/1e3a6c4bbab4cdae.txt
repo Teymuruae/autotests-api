@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQzLjY4MDIzNCIsInVzZXJfaWQiOiI5MjU4MWRmNC0zNjE0LTQ3MWUtYjZiZi0zYWRmYTE0MWJlNGIifQ.0h_wu6O_3xZoNM2bxWVZVmd4SM_B188vUulV5vNf_YY' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test stock wonder final idea. By give throw official while most name.\nLeave edge yet. Contain table policy effort important within majority write.","maxScore":51,"minScore":19,"description":"Girl suggest offer somebody attorney off pattern.","estimatedTime":"7 weeks","previewFileId":"904a973f-3120-4f32-a441-26ab60aa9379","createdByUserId":"92581df4-3614-471e-b6bf-3adfa141be4b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQzLjAyNjg4MyIsInVzZXJfaWQiOiIzODAyOTI3Yi1lZGRjLTQwMjktYmY4MC0wOWFmZjZiZGQ1MjMifQ.MTdcXOw2ZuJWcUnD4OSrxTjpNFZYLupoFZIYO-KvEkU' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Less woman far forward suddenly candidate. Care heart food. Else kid again art.\nMoment billion ever enough low million past agreement. Piece majority consider color American mean.","maxScore":53,"minScore":4,"description":"Company international figure capital fall deep.","estimatedTime":"6 weeks","previewFileId":"1237d287-ff7f-42ed-8cc4-94217fd39e37","createdByUserId":"3802927b-eddc-4029-bf80-09aff6bdd523"}'

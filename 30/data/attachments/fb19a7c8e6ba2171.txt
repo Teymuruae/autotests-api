@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ0LjI2NzAyNyIsInVzZXJfaWQiOiI0MzBiZTU2Yi1jYzhkLTQwYmItYmQzYi01OWI1NjRmNTNkZjIifQ.J_QYZY8NKupgZDTLJEnv8ymbR-USOHDi9uHsGH0R0NU' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before game note television bill enjoy.","courseId":"7add32ca-48ce-469d-af7d-5333b7abd3e7","maxScore":66,"minScore":18,"orderIndex":3,"description":"Drive I truth push paper form radio state. Story stage ask hotel. Open enough than season.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjEzOjQ1LjQzOTA2MSIsInVzZXJfaWQiOiI4YTczMzViYS1jMmZkLTRjOWUtOWUyMS04ZjkwNzExN2MxMDUifQ.6d3ZCAYVC6oVKCcdqU9afGf69xCARCc6KC-1QWGLXtc' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Call fine economic need indicate make. Pretty that simply southern around foreign strategy if.\nStory learn environmental identify.","maxScore":56,"minScore":14,"description":"Describe left produce treat whom.","estimatedTime":"5 weeks","previewFileId":"cd0a432f-2fd1-421f-8e40-9a0debefc4b5","createdByUserId":"8a7335ba-c2fd-4c9e-9e21-8f907117c105"}'
