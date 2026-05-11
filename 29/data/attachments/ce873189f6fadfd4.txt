@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE4LjQzMDI3OSIsInVzZXJfaWQiOiI1MTU1ZGVhYS00MzBkLTQzMGQtYmQ1Ny1lYzUxY2E4MjYyMmMifQ.68ctz78t2dVWq8lf-S4WmgY-Zxazz19x0-mFoQ0qn8M' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bad drug authority sound stand. Pressure tell hospital final. Tonight car certain artist important garden. Radio from issue turn.","maxScore":54,"minScore":1,"description":"Kitchen home nation nearly win more.","estimatedTime":"4 weeks","previewFileId":"62ec0a23-8038-4388-ad70-fc486c344c97","createdByUserId":"5155deaa-430d-430d-bd57-ec51ca82622c"}'

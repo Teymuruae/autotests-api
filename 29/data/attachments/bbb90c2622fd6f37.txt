@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE3LjYzMjkwNyIsInVzZXJfaWQiOiJmYzA3NGUyZC0zNjg3LTQ4ZmQtYTEwOS02NzY5MjEzNjI3MDEifQ.pnJOjN1zvpCxClyHDZXBhk3Crx-Y9-REY7HQMIXl5zY' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out down house able. Certain international plant study.\nThere can similar friend. Current wrong board church wrong fill manager three.","maxScore":50,"minScore":13,"description":"Listen performance entire form guy consider.","estimatedTime":"6 weeks","previewFileId":"0ce23b95-ecfd-4504-9b11-ce5661a0209f","createdByUserId":"fc074e2d-3687-48fd-a109-676921362701"}'

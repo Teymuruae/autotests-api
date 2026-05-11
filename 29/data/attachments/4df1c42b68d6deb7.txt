@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE3LjM5NDM1NCIsInVzZXJfaWQiOiJiNTBlYjZlMi00NmE5LTQ0ODYtODA0ZS1kZjIyOTJlNzQwMjAifQ.OWvxa5CQ3z52TFQWLMDb8lIZUX0qU6kqbuEdfY5aWTQ' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Range experience before size work. Executive person often state station phone would interest. They year cost.\nInformation wide foot. Character better training better enter sea although message.","maxScore":92,"minScore":4,"description":"May behavior true upon.","estimatedTime":"5 weeks","previewFileId":"bf34592e-c41d-4c47-b608-629beba41ae8","createdByUserId":"b50eb6e2-46a9-4486-804e-df2292e74020"}'

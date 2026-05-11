@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE5LjgwMjc1OCIsInVzZXJfaWQiOiIyYzc5MjI3OC1iYjA2LTRhYzUtYTI0OC0zZmQ3OGVjMDU5MzAifQ.mhZPMENqWLjB3pyDao-AUOVrQqVxg3o39NAIGCcDsJE' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also total near analysis oil. Say you carry gun force quality. Total deep pressure style thing.\nCheck yet economy wear employee degree remember. On international deep alone play.","maxScore":89,"minScore":11,"description":"Feel physical story send point consider never.","estimatedTime":"4 weeks","previewFileId":"2ae5c3f7-7eb3-4bb8-bc46-0f5ff445720b","createdByUserId":"2c792278-bb06-4ac5-a248-3fd78ec05930"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE4LjY3MDE4NiIsInVzZXJfaWQiOiJmOGIxYmY1NC1hYjRjLTQwYjYtOGM1Yy1mYmY1OWU1NTcxZDUifQ.zOGozqwGfZRqmn-qpvolVDJric6Vy65S4aHk3ElrLTw' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eight parent southern. Sometimes knowledge offer theory. Company six American material.\nEight explain rule person ever doctor although.","maxScore":88,"minScore":25,"description":"Without later party send mouth quite role.","estimatedTime":"10 weeks","previewFileId":"26fd67cc-cbc7-4c8c-8737-aac8c67d1ab6","createdByUserId":"f8b1bf54-ab4c-40b6-8c5c-fbf59e5571d5"}'

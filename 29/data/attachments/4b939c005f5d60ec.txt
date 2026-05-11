@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE5LjU2NDIzOCIsInVzZXJfaWQiOiI2ZTBkYzgzMi01YjE3LTQ5YzAtODExNi01NmUzYTFkYjQyZjYifQ.qiL3fso7n3XPPClw8f660ukaoLxpts5wBz5EL9YVQHk' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern along baby that customer.","courseId":"19ddab41-f6ed-4b78-99e8-27be314c3e8b","maxScore":62,"minScore":29,"orderIndex":46,"description":"Bad reason discover pass. Line law able body character.\nMarriage upon low. Surface house change ago around fill series. Month foreign now dinner.","estimatedTime":"9 weeks"}'

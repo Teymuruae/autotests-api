@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:26 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Those leave nice assume green because.
+INFO     BASE_ASSERTIONS:base.py:36 Check that course_id equals to e36158b3-c746-4ec9-a7a2-458d6f4b445a
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 92
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 24
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Computer animal including. Seat body analysis become ability. Chair wait hot film.
+Serve wear decision long role challenge more catch. Change loss industry.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

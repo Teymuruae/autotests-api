@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE2LjU4MTczNCIsInVzZXJfaWQiOiIzNzM0MGFmYS03Nzg1LTRjODQtYWI0Yi04YzU3NzlkNTNlOWEifQ.0DETIpShxTD05NDfOVPyR--_EasUkO4V7a1_vMOZk2Q' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice fund budget never whose blood establish. Difference stand agent son spend.","maxScore":94,"minScore":5,"description":"Wind my theory mouth hand window age.","estimatedTime":"10 weeks","previewFileId":"fb0ce9b4-3f67-4eb7-84c5-27d7458cc916","createdByUserId":"37340afa-7785-4c84-ab4b-8c5779d53e9a"}'

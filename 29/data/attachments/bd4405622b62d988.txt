@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE5LjU2NDIzOCIsInVzZXJfaWQiOiI2ZTBkYzgzMi01YjE3LTQ5YzAtODExNi01NmUzYTFkYjQyZjYifQ.qiL3fso7n3XPPClw8f660ukaoLxpts5wBz5EL9YVQHk' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop somebody yeah hospital. Feel father generation. Help health study find produce suddenly.\nEnjoy example available like husband billion Mrs. Tell nor whether price blood.","maxScore":90,"minScore":24,"description":"Gas catch bar model benefit every.","estimatedTime":"3 weeks","previewFileId":"0c872a7f-c743-4973-898d-6d1cce0a91a7","createdByUserId":"6e0dc832-5b17-49c0-8116-56e3a1db42f6"}'

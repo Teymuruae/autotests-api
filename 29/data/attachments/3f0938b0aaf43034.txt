@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f02e1831-bbd9-4119-80b7-04e650a8d4f1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE1OjA5OjE4LjQzMDI3OSIsInVzZXJfaWQiOiI1MTU1ZGVhYS00MzBkLTQzMGQtYmQ1Ny1lYzUxY2E4MjYyMmMifQ.68ctz78t2dVWq8lf-S4WmgY-Zxazz19x0-mFoQ0qn8M' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Themselves compare reveal great nice statement.","maxScore":54,"minScore":18,"orderIndex":53,"description":"Medical contain key. Lead before institution pay speak gun action under.\nProduction hotel improve bad purpose economic end.","estimatedTime":"10 weeks"}'
